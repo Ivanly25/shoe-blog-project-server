@@ -11,7 +11,8 @@ curl "${API}${URL_PATH}" \
   --data '{
     "shoe": {
       "brand": "'"${BRAND}"'",
-      "model": "'"${MODEL}"'"
+      "model": "'"${MODEL}"'",
+      "price": "'"${PRICE}"'"
     }
   }'
 
